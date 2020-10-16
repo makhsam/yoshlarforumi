@@ -1,3 +1,12 @@
+<?php
+    require './phpmailer.php';
+
+    $mail = new Mail;
+
+    if (isset($_POST) && $mail->validate($_POST)) {
+        $mail->send();
+    }
+?>
 <!DOCTYPE html>
  <html lang="en">
 <head>
@@ -38,7 +47,7 @@
         <div class="main-box">
             <div class="auto-container clearfix">
                 <!-- <div class="logo-box">
-                    <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
+                    <div class="logo"><a href="/"><img src="images/logo.png" alt="" title=""></a></div>
                 </div> -->
 
                 <!--Nav Box-->
@@ -56,7 +65,7 @@
 
                         <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li class="dropdown"><a href="index.html">Bosh sahifa</a>
+                                <li class="dropdown"><a href="/">Bosh sahifa</a>
                                 </li>
                                 <li class="dropdown"><a href="about-us.html">Biz haqidimizda</a>
                                 </li>
@@ -67,7 +76,7 @@
                                 <!-- <li class="dropdown"><a href="schedule.html">Schedule</a>
                                 </li> -->
                                 <li class="dropdown"><a href="blog-sidebar.html">Yo'nalishlar</a></li>
-                                <!-- <li><a href="contact.html">Bog'lanish</a></li> -->
+                                <!-- <li><a href="contact.php">Bog'lanish</a></li> -->
                             </ul>
                         </div>
                     </nav>
@@ -82,7 +91,7 @@
 
                         <!-- Button Box -->
                         <div class="btn-box">
-                            <a href="contact.html" class="theme-btn btn-style-one"><span class="btn-title">Ro'yxatdan o'tish</span></a>
+                            <a href="contact.php" class="theme-btn btn-style-one"><span class="btn-title">Ro'yxatdan o'tish</span></a>
                         </div>
                     </div>
                 </div>
@@ -96,7 +105,7 @@
 
             <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="images/logo-2.png" alt="" title=""></a></div>
+                <div class="nav-logo"><a href="/"><img src="images/logo-2.png" alt="" title=""></a></div>
 
                 <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
             </nav>
@@ -110,7 +119,7 @@
         <div class="auto-container">
             <h1>Biz bilan bog'laning</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="index.html">Bosh sahifa</a></li>
+                <li><a href="/">Bosh sahifa</a></li>
                 <li>Ro'yhatdan o'tish</li>
             </ul>
         </div>
@@ -137,7 +146,7 @@
                     <!--Register Form-->
                     <div class="register-form col-lg-8 col-md-6 col-sm-12">
                         <div class="form-inner">
-                            <form method="post" action="contact.html">
+                            <form method="post" action="contact.php">
                                 <div class="form-group">
                                     <span class="icon fa fa-user"></span>
                                     <input type="text" name="username" placeholder="F.I.SH" required="">
@@ -203,7 +212,7 @@
                             <div class="footer-column col-xl-7 col-lg-6 col-md-6 col-sm-12">
                                 <div class="footer-widget about-widget">
                                     <div class="logo">
-                                        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+                                        <a href="/"><img src="images/logo.png" alt="" /></a>
                                     </div>
                                    <!--  <div class="text">
                                         <p> O’zbekiston Transport sohasini raqobatbardosh qilish, xorij tajribalarini o’rgangan holda transport sohasini integratsiyalash va kompaniya strageyilarini belgilashda nazariy va amaliy ko'rib chiqish.</p>
@@ -223,10 +232,10 @@
                                 <div class="footer-widget useful-links">
                                     <h2 class="widget-title">Kerakli havolalar</h2>
                                     <ul class="user-links">
-                                        <li><a href="index.html">Bosh sahifa</a></li>
+                                        <li><a href="/">Bosh sahifa</a></li>
                                         <li><a href="about-us.html">Biz haqimizda</a></li>
                                         <li><a href="blog.html">Yo'nalishlar</a></li>
-                                        <li><a href="contact.html">Biz bilan bog'laning</a></li>
+                                        <li><a href="contact.php">Biz bilan bog'laning</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -316,7 +325,7 @@
             <div class="auto-container">
                 <div class="inner-container clearfix">
                     <div class="copyright-text">
-                        <p>Websayt TDIU talabasi Madina Kaxxarova tomonidan yaratildi<!--  <a href="index.html">Expert-Themes</a></p> -->
+                        <p>Websayt TDIU talabasi Madina Kaxxarova tomonidan yaratildi<!--  <a href="/">Expert-Themes</a></p> -->
                     </div>
                 </div>
             </div>
@@ -349,7 +358,7 @@
 	<div class="popup-inner">
 		<div class="overlay-layer"></div>
     	<div class="search-form">
-        	<form method="post" action="index.html">
+        	<form method="post" action="/">
             	<div class="form-group">
                 	<fieldset>
                         <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >

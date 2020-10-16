@@ -21,12 +21,27 @@ if ( $senderName && $senderEmail && $senderPhone && $subject && $message) {
   $success = mail( $recipient, $headers, $msgBody );
 
   echo "<script>alert('Your message has been sucessfully submitted Thanks. 🙂');</script>";
-  echo "<script>document.location.href='index.html'</script>";
+  echo "<script>document.location.href='/'</script>";
 }
 
 else{
   echo "<script>alert('Mail was not Send');</script>";
-  echo "<script>document.location.href='contact.html'</script>";
+  echo "<script>document.location.href='contact.php'</script>";
 }
+
+// Array
+// (
+//     [name] => Sayidazim Mahmudov
+//     [email] => sayidazimahmudov@gmail.com
+//     [phone] => +998977742223
+//     [category] => temiryol
+//     [lang] => uzbek
+//     [purpose] => some purpose
+//     [visited] => nope
+// )
+
+// echo "<pre>";
+// print_r($_POST);
+// echo "</pre>";
 
 ?>
