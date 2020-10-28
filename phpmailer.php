@@ -13,6 +13,9 @@ class Mail
     protected $params = ['name', 'email', 'phone', 'category', 'lang', 'purpose', 'visited'];
     protected $request = []; // POST data
 
+    /**
+     * Validate the incoming request
+     */
     public function validate(array $request)
     {
         // Extract data
@@ -28,6 +31,9 @@ class Mail
         return true;
     }
 
+    /**
+     * Send the email
+     */
     public function send()
     {
         $mail = new PHPMailer(true); // Argument true in constructor enables exceptions
