@@ -82,7 +82,7 @@ class Mail
     public function showAlert($message = '')
     {
         echo '<script>';
-        echo 'alert("S\'orovingiz qabul qilindi!");';
+        echo 'alert("So\'rovingiz qabul qilindi!");';
         echo '</script>';
     }
 }
