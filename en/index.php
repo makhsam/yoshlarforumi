@@ -1,11 +1,11 @@
 <?php
-    require './phpmailer.php';
+require './phpmailer.php';
 
-    $mail = new Mail;
+$mail = new Mail;
 
-    if (isset($_POST) && $mail->validate($_POST)) {
-        $mail->send();
-    }
+if (isset($_POST) && $mail->validate($_POST)) {
+    $mail->send();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -46,7 +46,7 @@
             <div class="main-box">
                 <div class="auto-container clearfix">
                     <!-- <div class="logo-box">
-                	<div class="logo"><a href="/"><img src="images/logo.png" alt="" title=""></a></div>
+                	<div class="logo"><a href="index.php"><img src="images/logo.png" alt="" title=""></a></div>
                 </div> -->
 
                     <!--Nav Box-->
@@ -57,16 +57,14 @@
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="navbar-header">
                                 <!-- Togg le Button -->
-                                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                    aria-expanded="false" aria-label="Toggle navigation">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="icon flaticon-menu-button"></span>
                                 </button>
                             </div>
 
                             <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li class="active"><a href="/">Home</a>
+                                    <li class="active"><a href="index.php">Home</a>
                                     </li>
                                     <li class="dropdown"><a href="about-us.html">About us</a>
                                     </li>
@@ -77,9 +75,9 @@
                                     <!-- <li class="dropdown"><a href="schedule.html">Schedule</a>
                                 </li> -->
                                     <li class="dropdown"><a href="blog-sidebar.html">Directions</a></li>
-                                    <li class="dropdown dropmenu"><a href="index.php"><img src="images/resource/us_flag.jpg" alt="" class="m-2 float-right" height="10" width="18"/>English</a>
+                                    <li class="dropdown dropmenu"><a href="index.php"><img src="images/resource/us_flag.jpg" alt="" class="m-2 float-right" height="10" width="18" />English</a>
                                         <ul>
-                                            <a class="dropdown-item" href="../index.php"><span> Uzbek </span><img src="images/resource/uz_flag.png" alt="" class="m-1 float-right" height="8" width="18"/></a>
+                                            <a class="dropdown-item" href="../index.php"><span> Uzbek </span><img src="images/resource/uz_flag.png" alt="" class="m-1 float-right" height="8" width="18" /></a>
                                         </ul>
                                     </li>
                                     <!-- <li><a href="contact.php">Bog'lanish</a></li> -->
@@ -97,8 +95,7 @@
 
                             <!-- Button Box -->
                             <div class="btn-box">
-                                <a href="contact.php" class="theme-btn btn-style-one"><span
-                                        class="btn-title">Sign up</span></a>
+                                <a href="contact.php" class="theme-btn btn-style-one"><span class="btn-title">Sign up</span></a>
                             </div>
                         </div>
                     </div>
@@ -112,7 +109,7 @@
 
                 <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                 <nav class="menu-box">
-                    <!-- <div class="nav-logo"><a href="/"><img src="images/logo-2.png" alt="" title=""></a></div> -->
+                    <!-- <div class="nav-logo"><a href="index.php"><img src="images/logo-2.png" alt="" title=""></a></div> -->
 
                     <ul class="navigation clearfix">
                         <!--Keep This Empty / Menu will come through Javascript-->
@@ -137,8 +134,7 @@
                                 <li><span class="icon fa fa-user-alt"></span> 12 Speakers</li>
                                 <li><span class="icon fa fa-map-marker-alt"></span> TSUE, TDTU</li>
                             </ul>
-                            <div class="btn-box"><a href="contact.php" class="theme-btn btn-style-two"><span
-                                        class="btn-title">Sign up</span></a></div>
+                            <div class="btn-box"><a href="contact.php" class="theme-btn btn-style-two"><span class="btn-title">Sign up</span></a></div>
                         </div>
                     </div>
                 </div>
@@ -154,8 +150,7 @@
                                 <li><span class="icon fa fa-user-alt"></span> 12 ta Speakers</li>
                                 <li><span class="icon fa fa-map-marker-alt"></span> TSUE, TDTU</li>
                             </ul>
-                            <div class="btn-box"><a href="contact.php" class="theme-btn btn-style-two"><span
-                                        class="btn-title">Sign up</span></a></div>
+                            <div class="btn-box"><a href="contact.php" class="theme-btn btn-style-two"><span class="btn-title">Sign up</span></a></div>
                         </div>
                     </div>
                 </div>
@@ -205,8 +200,7 @@
                                 <li> Transport and transit corridors in the Central Asian region in the context of globalization
                                     integration and its economic efficiency </li>
                             </ul>
-                            <div class="btn-box"><a href="images/info.pdf" class="theme-btn btn-style-three"><span
-                                        class="btn-title">Download the statute</span></a></div>
+                            <div class="btn-box"><a href="images/info.pdf" class="theme-btn btn-style-three"><span class="btn-title">Download the statute</span></a></div>
                         </div>
                     </div>
 
@@ -303,8 +297,7 @@
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img
-                                            src="images/resource/speaker-1.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-1.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -325,8 +318,7 @@
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img
-                                            src="images/resource/speaker-2.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-2.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -347,8 +339,7 @@
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img
-                                            src="images/resource/speaker-3.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-3.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -369,8 +360,7 @@
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img
-                                            src="images/resource/speaker-4.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-4.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -391,8 +381,7 @@
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img
-                                            src="images/resource/speaker-5.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-5.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -413,8 +402,7 @@
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img
-                                            src="images/resource/speaker-8.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-8.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -435,8 +423,7 @@
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img
-                                            src="images/resource/speaker-7.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-7.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -457,8 +444,7 @@
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img
-                                            src="images/resource/speaker-6.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-6.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -701,7 +687,7 @@
                                             <h5 class="name">Ashli Scroggy</h5>
                                             <span class="designation">Founder & CEO</span>
                                         </div> -->
-                                            <h4><a href="event-detail.html">Special entertainment for students  demonstrations</a></h4>
+                                            <h4><a href="event-detail.html">Special entertainment for students demonstrations</a></h4>
                                             <div class="text">Students' Day is celebrated in a special way</div>
                                             <div class="btn-box">
                                                 <a href="event-detail.html" class="theme-btn">Read more</a>
@@ -742,11 +728,9 @@
     <section class="video-section" style="background-image: url(images/background/1.jpg);">
         <div class="auto-container">
             <div class="content-box">
-            <div class = "text"> Be with us </div>
+                <div class="text"> Be with us </div>
                 <h2> Online conference for students </br2>
-                <a href="https://www.youtube.com/watch?v=Fvae8nxzVz4" class="play-now" data-fancybox="gallery"
-                    data-caption=""><i class="icon flaticon-play-button-3" aria-hidden="true"></i><span
-                        class="ripple"></span></a>
+                    <a href="https://www.youtube.com/watch?v=Fvae8nxzVz4" class="play-now" data-fancybox="gallery" data-caption=""><i class="icon flaticon-play-button-3" aria-hidden="true"></i><span class="ripple"></span></a>
             </div>
         </div>
     </section>
@@ -759,7 +743,7 @@
                 <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
                     <div class="inner-column">
                         <div class="sec-title">
-                            <span class = "title"> Join the forum </span>
+                            <span class="title"> Join the forum </span>
                             <h2> Forum Procedure </h2>
                             <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt labore et dolore magna aliqu enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip</div> -->
                         </div>
@@ -833,7 +817,7 @@
                                         <option value="avtomobil">Economics of road transport companies
                                         </option>
                                         <option value="global">In the context of globalization in the Central Asian region
-                                          integration of transport and transit corridors and its economic
+                                            integration of transport and transit corridors and its economic
                                             efficiency</option>
                                     </select>
                                 </div>
@@ -886,7 +870,7 @@
                             <div class="footer-column col-xl-7 col-lg-6 col-md-6 col-sm-12">
                                 <div class="footer-widget about-widget">
                                     <div class="logo">
-                                        <a href="/"><img src="images/logo.png" alt="" /></a>
+                                        <a href="index.php"><img src="images/logo.png" alt="" /></a>
                                     </div>
                                     <!--  <div class="text">
                                         <p> O’zbekiston Transport sohasini raqobatbardosh qilish, xorij tajribalarini o’rgangan holda transport sohasini integratsiyalash va kompaniya strageyilarini belgilashda nazariy va amaliy ko'rib chiqish.</p>
@@ -906,7 +890,7 @@
                                 <div class="footer-widget useful-links">
                                     <h2 class="widget-title">Required links</h2>
                                     <ul class="user-links">
-                                        <li><a href="/">Home</a></li>
+                                        <li><a href="index.php">Home</a></li>
                                         <li><a href="about-us.html">About us</a></li>
                                         <li><a href="blog.html">Directions</a></li>
                                         <li><a href="contact.php">Contact us</a></li>
@@ -938,14 +922,12 @@
                                             </li>
                                             <li>
                                                 <span class="icon flaticon-paper-plane"></span>
-                                                <div class="text"><a
-                                                        href="mailto:https://t.me/digital_transport2020">https://t.me/digital_transport2020
+                                                <div class="text"><a href="mailto:https://t.me/digital_transport2020">https://t.me/digital_transport2020
                                                 </div>
                                             </li>
                                             <li>
                                                 <span class="icon flaticon-paper-plane"></span>
-                                                <div class="text"><a
-                                                        href="mailto:mirjalolrajabov579@gmail.com">mirjalolrajabov579@gmail.com</a>
+                                                <div class="text"><a href="mailto:mirjalolrajabov579@gmail.com">mirjalolrajabov579@gmail.com</a>
                                                 </div>
                                             </li>
 
@@ -966,39 +948,27 @@
                                     <div class="widget-content">
                                         <div class="outer clearfix">
                                             <figure class="image">
-                                                <a href="images/gallery/1.jpg" class="lightbox-image"
-                                                    title="Image Title Here"><img src="images/resource/gw-1.jpg"
-                                                        alt=""></a>
+                                                <a href="images/gallery/1.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-1.jpg" alt=""></a>
                                             </figure>
 
                                             <figure class="image">
-                                                <a href="images/gallery/2.jpg" class="lightbox-image"
-                                                    title="Image Title Here"><img src="images/resource/gw-2.jpg"
-                                                        alt=""></a>
+                                                <a href="images/gallery/2.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-2.jpg" alt=""></a>
                                             </figure>
 
                                             <figure class="image">
-                                                <a href="images/gallery/3.jpg" class="lightbox-image"
-                                                    title="Image Title Here"><img src="images/resource/gw-3.jpg"
-                                                        alt=""></a>
+                                                <a href="images/gallery/3.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-3.jpg" alt=""></a>
                                             </figure>
 
                                             <figure class="image">
-                                                <a href="images/gallery/4.jpg" class="lightbox-image"
-                                                    title="Image Title Here"><img src="images/resource/gw-4.jpg"
-                                                        alt=""></a>
+                                                <a href="images/gallery/4.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-4.jpg" alt=""></a>
                                             </figure>
 
                                             <figure class="image">
-                                                <a href="images/gallery/5.jpg" class="lightbox-image"
-                                                    title="Image Title Here"><img src="images/resource/gw-5.jpg"
-                                                        alt=""></a>
+                                                <a href="images/gallery/5.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-5.jpg" alt=""></a>
                                             </figure>
 
                                             <figure class="image">
-                                                <a href="images/gallery/1.jpg" class="lightbox-image"
-                                                    title="Image Title Here"><img src="images/resource/gw-6.jpg"
-                                                        alt=""></a>
+                                                <a href="images/gallery/1.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-6.jpg" alt=""></a>
                                             </figure>
                                         </div>
                                     </div>
@@ -1016,7 +986,7 @@
                 <div class="inner-container clearfix">
                     <div class="copyright-text">
                         <p>The website was created by TSUE student Madina Kakhkharova
-                            <!--  <a href="/">Expert-Themes</a></p> -->
+                            <!--  <a href="index.php">Expert-Themes</a></p> -->
                     </div>
                 </div>
             </div>
@@ -1059,8 +1029,7 @@
                 <form method="post" action="/">
                     <div class="form-group">
                         <fieldset>
-                            <input type="search" class="form-control" name="search-input" value=""
-                                placeholder="Search Here" required>
+                            <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required>
                             <input type="submit" value="Search Now!" class="theme-btn">
                         </fieldset>
                     </div>

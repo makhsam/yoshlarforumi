@@ -1,11 +1,11 @@
 <?php
-    require './phpmailer.php';
+require './phpmailer.php';
 
-    $mail = new Mail;
+$mail = new Mail;
 
-    if (isset($_POST) && $mail->validate($_POST)) {
-        $mail->send();
-    }
+if (isset($_POST) && $mail->validate($_POST)) {
+    $mail->send();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -46,7 +46,7 @@
             <div class="main-box">
                 <div class="auto-container clearfix">
                     <!-- <div class="logo-box">
-                	<div class="logo"><a href="/"><img src="images/logo.png" alt="" title=""></a></div>
+                	<div class="logo"><a href="index.php"><img src="images/logo.png" alt="" title=""></a></div>
                 </div> -->
 
                     <!--Nav Box-->
@@ -57,16 +57,14 @@
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="navbar-header">
                                 <!-- Togg le Button -->
-                                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                    aria-expanded="false" aria-label="Toggle navigation">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="icon flaticon-menu-button"></span>
                                 </button>
                             </div>
 
                             <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li class="active"><a href="/">Bosh sahifa</a>
+                                    <li class="active"><a href="index.php">Bosh sahifa</a>
                                     </li>
                                     <li class="dropdown"><a href="about-us.html">Biz haqimizda</a>
                                     </li>
@@ -78,11 +76,11 @@
                                 </li> -->
                                     <li class="dropdown"><a href="blog-sidebar.html">Yo'nalishlar</a></li>
                                     <!-- <li><a href="contact.php">Bog'lanish</a></li> -->
-                                    <li class="dropdown dropmenu"><a href="index.php"><img src="images/resource/uz_flag.png" alt="" class="m-2 float-right" height="10" width="18"/>Uzbek</a>
-                                    <ul>
-                                        <a class="dropdown-item" href="en/index.php"><span> English </span><img src="images/resource/us_flag.jpg" alt="" class="m-1 float-right" height="8" width="18"/></a>
-                                    </ul>
-                                </li>
+                                    <li class="dropdown dropmenu"><a href="index.php"><img src="images/resource/uz_flag.png" alt="" class="m-2 float-right" height="10" width="18" />Uzbek</a>
+                                        <ul>
+                                            <a class="dropdown-item" href="en/index.php"><span> English </span><img src="images/resource/us_flag.jpg" alt="" class="m-1 float-right" height="8" width="18" /></a>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </div>
                         </nav>
@@ -97,8 +95,7 @@
 
                             <!-- Button Box -->
                             <div class="btn-box">
-                                <a href="contact.php" class="theme-btn btn-style-one"><span
-                                        class="btn-title">Ro'yxatdan o'tish</span></a>
+                                <a href="contact.php" class="theme-btn btn-style-one"><span class="btn-title">Ro'yxatdan o'tish</span></a>
                             </div>
                         </div>
                     </div>
@@ -112,7 +109,7 @@
 
                 <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                 <nav class="menu-box">
-                    <!-- <div class="nav-logo"><a href="/"><img src="images/logo-2.png" alt="" title=""></a></div> -->
+                    <!-- <div class="nav-logo"><a href="index.php"><img src="images/logo-2.png" alt="" title=""></a></div> -->
 
                     <ul class="navigation clearfix">
                         <!--Keep This Empty / Menu will come through Javascript-->
@@ -137,8 +134,7 @@
                                 <li><span class="icon fa fa-user-alt"></span> 12 Ma'ruzachilar</li>
                                 <li><span class="icon fa fa-map-marker-alt"></span> TDIU, TDTU</li>
                             </ul>
-                            <div class="btn-box"><a href="contact.php" class="theme-btn btn-style-two"><span
-                                        class="btn-title">Ro'yxatdan o'tish</span></a></div>
+                            <div class="btn-box"><a href="contact.php" class="theme-btn btn-style-two"><span class="btn-title">Ro'yxatdan o'tish</span></a></div>
                         </div>
                     </div>
                 </div>
@@ -154,8 +150,7 @@
                                 <li><span class="icon fa fa-user-alt"></span> 12 ta Ma'ruzachilar</li>
                                 <li><span class="icon fa fa-map-marker-alt"></span> TDIU, TDTU</li>
                             </ul>
-                            <div class="btn-box"><a href="contact.php" class="theme-btn btn-style-two"><span
-                                        class="btn-title">Ro'yxatdan o'tish</span></a></div>
+                            <div class="btn-box"><a href="contact.php" class="theme-btn btn-style-two"><span class="btn-title">Ro'yxatdan o'tish</span></a></div>
                         </div>
                     </div>
                 </div>
@@ -205,8 +200,7 @@
                                 <li>Globallashuv sharoitida Markaziy Osiyo mintaqasida transport - tranzit yoʻlaklari
                                     integratsiyalashuvi va uning iqtisodiy samaradorligi</li>
                             </ul>
-                            <div class="btn-box"><a href="images/info.pdf" class="theme-btn btn-style-three"><span
-                                        class="btn-title">Nizomni yuklab olish</span></a></div>
+                            <div class="btn-box"><a href="images/info.pdf" class="theme-btn btn-style-three"><span class="btn-title">Nizomni yuklab olish</span></a></div>
                         </div>
                     </div>
 
@@ -303,8 +297,7 @@
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img
-                                            src="images/resource/speaker-1.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-1.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -325,8 +318,7 @@
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img
-                                            src="images/resource/speaker-2.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-2.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -347,8 +339,7 @@
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img
-                                            src="images/resource/speaker-3.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-3.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -369,8 +360,7 @@
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img
-                                            src="images/resource/speaker-4.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-4.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -391,8 +381,7 @@
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img
-                                            src="images/resource/speaker-5.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-5.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -413,8 +402,7 @@
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img
-                                            src="images/resource/speaker-8.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-8.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -435,8 +423,7 @@
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img
-                                            src="images/resource/speaker-7.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-7.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -457,8 +444,7 @@
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img
-                                            src="images/resource/speaker-6.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-6.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -749,9 +735,7 @@
             <div class="content-box">
                 <div class="text">Biz bilan birga bo'ling</div>
                 <h2>Talabalar <br>uchun online konferensiya</h2>
-                <a href="https://www.youtube.com/watch?v=Fvae8nxzVz4" class="play-now" data-fancybox="gallery"
-                    data-caption=""><i class="icon flaticon-play-button-3" aria-hidden="true"></i><span
-                        class="ripple"></span></a>
+                <a href="https://www.youtube.com/watch?v=Fvae8nxzVz4" class="play-now" data-fancybox="gallery" data-caption=""><i class="icon flaticon-play-button-3" aria-hidden="true"></i><span class="ripple"></span></a>
             </div>
         </div>
     </section>
@@ -892,7 +876,7 @@
                             <div class="footer-column col-xl-7 col-lg-6 col-md-6 col-sm-12">
                                 <div class="footer-widget about-widget">
                                     <div class="logo">
-                                        <a href="/"><img src="images/logo.png" alt="" /></a>
+                                        <a href="index.php"><img src="images/logo.png" alt="" /></a>
                                     </div>
                                     <!--  <div class="text">
                                         <p> O’zbekiston Transport sohasini raqobatbardosh qilish, xorij tajribalarini o’rgangan holda transport sohasini integratsiyalash va kompaniya strageyilarini belgilashda nazariy va amaliy ko'rib chiqish.</p>
@@ -912,7 +896,7 @@
                                 <div class="footer-widget useful-links">
                                     <h2 class="widget-title">Kerakli havolalar</h2>
                                     <ul class="user-links">
-                                        <li><a href="/">Bosh sahifa</a></li>
+                                        <li><a href="index.php">Bosh sahifa</a></li>
                                         <li><a href="about-us.html">Biz haqimizda</a></li>
                                         <li><a href="blog.html">Yo'nalishlar</a></li>
                                         <li><a href="contact.php">Biz bilan bog'laning</a></li>
@@ -944,14 +928,12 @@
                                             </li>
                                             <li>
                                                 <span class="icon flaticon-paper-plane"></span>
-                                                <div class="text"><a
-                                                        href="mailto:https://t.me/digital_transport2020">https://t.me/digital_transport2020
+                                                <div class="text"><a href="mailto:https://t.me/digital_transport2020">https://t.me/digital_transport2020
                                                 </div>
                                             </li>
                                             <li>
                                                 <span class="icon flaticon-paper-plane"></span>
-                                                <div class="text"><a
-                                                        href="mailto:mirjalolrajabov579@gmail.com">mirjalolrajabov579@gmail.com</a>
+                                                <div class="text"><a href="mailto:mirjalolrajabov579@gmail.com">mirjalolrajabov579@gmail.com</a>
                                                 </div>
                                             </li>
 
@@ -972,39 +954,27 @@
                                     <div class="widget-content">
                                         <div class="outer clearfix">
                                             <figure class="image">
-                                                <a href="images/gallery/1.jpg" class="lightbox-image"
-                                                    title="Image Title Here"><img src="images/resource/gw-1.jpg"
-                                                        alt=""></a>
+                                                <a href="images/gallery/1.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-1.jpg" alt=""></a>
                                             </figure>
 
                                             <figure class="image">
-                                                <a href="images/gallery/2.jpg" class="lightbox-image"
-                                                    title="Image Title Here"><img src="images/resource/gw-2.jpg"
-                                                        alt=""></a>
+                                                <a href="images/gallery/2.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-2.jpg" alt=""></a>
                                             </figure>
 
                                             <figure class="image">
-                                                <a href="images/gallery/3.jpg" class="lightbox-image"
-                                                    title="Image Title Here"><img src="images/resource/gw-3.jpg"
-                                                        alt=""></a>
+                                                <a href="images/gallery/3.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-3.jpg" alt=""></a>
                                             </figure>
 
                                             <figure class="image">
-                                                <a href="images/gallery/4.jpg" class="lightbox-image"
-                                                    title="Image Title Here"><img src="images/resource/gw-4.jpg"
-                                                        alt=""></a>
+                                                <a href="images/gallery/4.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-4.jpg" alt=""></a>
                                             </figure>
 
                                             <figure class="image">
-                                                <a href="images/gallery/5.jpg" class="lightbox-image"
-                                                    title="Image Title Here"><img src="images/resource/gw-5.jpg"
-                                                        alt=""></a>
+                                                <a href="images/gallery/5.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-5.jpg" alt=""></a>
                                             </figure>
 
                                             <figure class="image">
-                                                <a href="images/gallery/1.jpg" class="lightbox-image"
-                                                    title="Image Title Here"><img src="images/resource/gw-6.jpg"
-                                                        alt=""></a>
+                                                <a href="images/gallery/1.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-6.jpg" alt=""></a>
                                             </figure>
                                         </div>
                                     </div>
@@ -1022,7 +992,7 @@
                 <div class="inner-container clearfix">
                     <div class="copyright-text">
                         <p>Websayt TDIU talabasi Madina Kaxxarova tomonidan yaratildi
-                            <!--  <a href="/">Expert-Themes</a></p> -->
+                            <!--  <a href="index.php">Expert-Themes</a></p> -->
                     </div>
                 </div>
             </div>
@@ -1065,8 +1035,7 @@
                 <form method="post" action="/">
                     <div class="form-group">
                         <fieldset>
-                            <input type="search" class="form-control" name="search-input" value=""
-                                placeholder="Search Here" required>
+                            <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required>
                             <input type="submit" value="Search Now!" class="theme-btn">
                         </fieldset>
                     </div>
