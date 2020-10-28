@@ -1,5 +1,5 @@
 <?php
-require './phpmailer.php';
+require '../phpmailer.php';
 
 $mail = new Mail;
 
@@ -14,21 +14,21 @@ if (isset($_POST) && $mail->validate($_POST)) {
     <meta charset="utf-8">
     <title>Youth Forum | Home</title>
     <!-- Stylesheets -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/responsive.css" rel="stylesheet">
     <!--Color Switcher Mockup-->
-    <link href="css/color-switcher-design.css" rel="stylesheet">
+    <link href="../css/color-switcher-design.css" rel="stylesheet">
 
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="../images/favicon.png" type="image/x-icon">
 
     <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="../js/respond.js"></script><![endif]-->
 
 </head>
 
@@ -46,7 +46,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
             <div class="main-box">
                 <div class="auto-container clearfix">
                     <!-- <div class="logo-box">
-                	<div class="logo"><a href="index.php"><img src="images/logo.png" alt="" title=""></a></div>
+                	<div class="logo"><a href="index.php"><img src="../images/logo.png" alt="" title=""></a></div>
                 </div> -->
 
                     <!--Nav Box-->
@@ -75,9 +75,9 @@ if (isset($_POST) && $mail->validate($_POST)) {
                                     <!-- <li class="dropdown"><a href="schedule.html">Schedule</a>
                                 </li> -->
                                     <li class="dropdown"><a href="blog-sidebar.html">Directions</a></li>
-                                    <li class="dropdown dropmenu"><a href="index.php"><img src="images/resource/us_flag.jpg" alt="" class="m-2 float-right" height="10" width="18" />English</a>
+                                    <li class="dropdown dropmenu"><a href="index.php"><img src="../images/resource/us_flag.jpg" alt="" class="m-2 float-right" height="10" width="18" />English</a>
                                         <ul>
-                                            <a class="dropdown-item" href="../index.php"><span> Uzbek </span><img src="images/resource/uz_flag.png" alt="" class="m-1 float-right" height="8" width="18" /></a>
+                                            <a class="dropdown-item" href="../index.php"><span> Uzbek </span><img src="../images/resource/uz_flag.png" alt="" class="m-1 float-right" height="8" width="18" /></a>
                                         </ul>
                                     </li>
                                     <!-- <li><a href="contact.php">Bog'lanish</a></li> -->
@@ -109,7 +109,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
 
                 <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                 <nav class="menu-box">
-                    <!-- <div class="nav-logo"><a href="index.php"><img src="images/logo-2.png" alt="" title=""></a></div> -->
+                    <!-- <div class="nav-logo"><a href="index.php"><img src="../images/logo-2.png" alt="" title=""></a></div> -->
 
                     <ul class="navigation clearfix">
                         <!--Keep This Empty / Menu will come through Javascript-->
@@ -124,7 +124,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
         <section class="banner-section">
             <div class="banner-carousel owl-carousel owl-theme">
                 <!-- Slide Item -->
-                <div class="slide-item" style="background-image: url(images/main-slider/1.jpg);">
+                <div class="slide-item" style="background-image: url(../images/main-slider/1.jpg);">
                     <div class="auto-container">
                         <div class="content-box">
                             <span class="title">November 16, 2020</span>
@@ -140,7 +140,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
                 </div>
 
                 <!-- Slide Item -->
-                <div class="slide-item" style="background-image: url(images/main-slider/2.jpg);">
+                <div class="slide-item" style="background-image: url(../images/main-slider/2.jpg);">
                     <div class="auto-container">
                         <div class="content-box">
                             <span class="title">November 16, 2020</span>
@@ -200,14 +200,14 @@ if (isset($_POST) && $mail->validate($_POST)) {
                                 <li> Transport and transit corridors in the Central Asian region in the context of globalization
                                     integration and its economic efficiency </li>
                             </ul>
-                            <div class="btn-box"><a href="images/info.pdf" class="theme-btn btn-style-three"><span class="btn-title">Download the statute</span></a></div>
+                            <div class="btn-box"><a href="../images/info.pdf" class="theme-btn btn-style-three"><span class="btn-title">Download the statute</span></a></div>
                         </div>
                     </div>
 
                     <!-- Image Column -->
                     <div class="image-column col-lg-6 col-md-12 col-sm-12">
                         <div class="image-box">
-                            <figure class="image wow fadeIn"><img src="images/resource/about-img-1.jpg" alt=""></figure>
+                            <figure class="image wow fadeIn"><img src="../images/resource/about-img-1.jpg" alt=""></figure>
                         </div>
                     </div>
                 </div>
@@ -285,7 +285,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
         <!--End Features Section -->
 
         <!-- Speakers Section -->
-        <section class="speakers-section" id="speakers-section" style="background-image: url(images/background/6.jpg);">
+        <section class="speakers-section" id="speakers-section" style="background-image: url(../images/background/6.jpg);">
             <div class="auto-container">
                 <div class="sec-title light text-center">
                     <span class="title">Speakers</span>
@@ -297,7 +297,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-1.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="../images/resource/speaker-1.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -318,7 +318,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-2.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="../images/resource/speaker-2.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -339,7 +339,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-3.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="../images/resource/speaker-3.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -360,7 +360,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-4.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="../images/resource/speaker-4.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -381,7 +381,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-5.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="../images/resource/speaker-5.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -402,7 +402,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-8.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="../images/resource/speaker-8.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -423,7 +423,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-7.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="../images/resource/speaker-7.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -444,7 +444,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
                     <div class="speaker-block col-lg-3 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="speakers-detail.html"><img src="images/resource/speaker-6.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="speakers-detail.html"><img src="../images/resource/speaker-6.jpg" alt=""></a></figure>
                             </div>
                             <div class="info-box">
                                 <div class="inner">
@@ -580,7 +580,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
                                         <div class="inner">
                                             <div class="date">10.00 AM <br> 11.00 AM</div>
                                             <!-- <div class="speaker-info">
-                                            <figure class="thumb"><img src="images/resource/thumb-2.jpg" alt=""></figure>
+                                            <figure class="thumb"><img src="../images/resource/thumb-2.jpg" alt=""></figure>
                                             <h5 class="name">Jamoalar taqdioti</h5>
                                             <span class="designation">Founder & CEO</span>
                                         </div> -->
@@ -600,7 +600,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
                                         <div class="inner">
                                             <div class="date">15.10 AM <br> 16.00 AM</div>
                                             <!-- <div class="speaker-info">
-                                            <figure class="thumb"><img src="images/resource/thumb-1.jpg" alt=""></figure>
+                                            <figure class="thumb"><img src="../images/resource/thumb-1.jpg" alt=""></figure>
                                             <h5 class="name">Ashli Scroggy</h5>
                                             <span class="designation">Founder & CEO</span>
                                         </div> -->
@@ -619,7 +619,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
                                         <div class="inner">
                                             <div class="date">16.00 AM <br> 16.50 PM</div>
                                             <!-- <div class="speaker-info">
-                                            <figure class="thumb"><img src="images/resource/thumb-2.jpg" alt=""></figure>
+                                            <figure class="thumb"><img src="../images/resource/thumb-2.jpg" alt=""></figure>
                                             <h5 class="name">Ashli Scroggy</h5>
                                             <span class="designation">Founder & CEO</span>
                                         </div> -->
@@ -643,7 +643,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
                                         <div class="inner">
                                             <div class="date">10.00 AM <br> 11.00 AM</div>
                                             <!-- <div class="speaker-info">
-                                            <figure class="thumb"><img src="images/resource/thumb-1.jpg" alt=""></figure>
+                                            <figure class="thumb"><img src="../images/resource/thumb-1.jpg" alt=""></figure>
                                             <h5 class="name">Ashli Scroggy</h5>
                                             <span class="designation">Founder & CEO</span>
                                         </div> -->
@@ -663,7 +663,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
                                         <div class="inner">
                                             <div class="date">11.00 AM <br> 11.30 AM</div>
                                             <!-- <div class="speaker-info">
-                                            <figure class="thumb"><img src="images/resource/thumb-2.jpg" alt=""></figure>
+                                            <figure class="thumb"><img src="../images/resource/thumb-2.jpg" alt=""></figure>
                                             <h5 class="name">Ashli Scroggy</h5>
                                             <span class="designation">Founder & CEO</span>
                                         </div> -->
@@ -683,7 +683,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
                                         <div class="inner">
                                             <div class="date">11.30 AM <br> 13.00 AM</div>
                                             <!-- <div class="speaker-info">
-                                            <figure class="thumb"><img src="images/resource/thumb-1.jpg" alt=""></figure>
+                                            <figure class="thumb"><img src="../images/resource/thumb-1.jpg" alt=""></figure>
                                             <h5 class="name">Ashli Scroggy</h5>
                                             <span class="designation">Founder & CEO</span>
                                         </div> -->
@@ -702,7 +702,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
                                         <div class="inner">
                                             <div class="date">13.00 AM <br> 14.00 PM</div>
                                             <!-- <div class="speaker-info">
-                                            <figure class="thumb"><img src="images/resource/thumb-2.jpg" alt=""></figure>
+                                            <figure class="thumb"><img src="../images/resource/thumb-2.jpg" alt=""></figure>
                                             <h5 class="name">Ashli Scroggy</h5>
                                             <span class="designation">Founder & CEO</span>
                                         </div> -->
@@ -725,7 +725,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
 
 
     <!-- Video Section -->
-    <section class="video-section" style="background-image: url(images/background/1.jpg);">
+    <section class="video-section" style="background-image: url(../images/background/1.jpg);">
         <div class="auto-container">
             <div class="content-box">
                 <div class="text"> Be with us </div>
@@ -763,7 +763,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
                 </div>
                 <div class="image-column col-lg-6 col-md-12 col-sm-12">
                     <div class="image-box">
-                        <figure class="image"><img src="images/background/3.jpg" alt=""></figure>
+                        <figure class="image"><img src="../images/background/3.jpg" alt=""></figure>
                     </div>
                 </div>
             </div>
@@ -870,7 +870,7 @@ if (isset($_POST) && $mail->validate($_POST)) {
                             <div class="footer-column col-xl-7 col-lg-6 col-md-6 col-sm-12">
                                 <div class="footer-widget about-widget">
                                     <div class="logo">
-                                        <a href="index.php"><img src="images/logo.png" alt="" /></a>
+                                        <a href="index.php"><img src="../images/logo.png" alt="" /></a>
                                     </div>
                                     <!--  <div class="text">
                                         <p> O’zbekiston Transport sohasini raqobatbardosh qilish, xorij tajribalarini o’rgangan holda transport sohasini integratsiyalash va kompaniya strageyilarini belgilashda nazariy va amaliy ko'rib chiqish.</p>
@@ -948,27 +948,27 @@ if (isset($_POST) && $mail->validate($_POST)) {
                                     <div class="widget-content">
                                         <div class="outer clearfix">
                                             <figure class="image">
-                                                <a href="images/gallery/1.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-1.jpg" alt=""></a>
+                                                <a href="../images/gallery/1.jpg" class="lightbox-image" title="Image Title Here"><img src="../images/resource/gw-1.jpg" alt=""></a>
                                             </figure>
 
                                             <figure class="image">
-                                                <a href="images/gallery/2.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-2.jpg" alt=""></a>
+                                                <a href="../images/gallery/2.jpg" class="lightbox-image" title="Image Title Here"><img src="../images/resource/gw-2.jpg" alt=""></a>
                                             </figure>
 
                                             <figure class="image">
-                                                <a href="images/gallery/3.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-3.jpg" alt=""></a>
+                                                <a href="../images/gallery/3.jpg" class="lightbox-image" title="Image Title Here"><img src="../images/resource/gw-3.jpg" alt=""></a>
                                             </figure>
 
                                             <figure class="image">
-                                                <a href="images/gallery/4.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-4.jpg" alt=""></a>
+                                                <a href="../images/gallery/4.jpg" class="lightbox-image" title="Image Title Here"><img src="../images/resource/gw-4.jpg" alt=""></a>
                                             </figure>
 
                                             <figure class="image">
-                                                <a href="images/gallery/5.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-5.jpg" alt=""></a>
+                                                <a href="../images/gallery/5.jpg" class="lightbox-image" title="Image Title Here"><img src="../images/resource/gw-5.jpg" alt=""></a>
                                             </figure>
 
                                             <figure class="image">
-                                                <a href="images/gallery/1.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/gw-6.jpg" alt=""></a>
+                                                <a href="../images/gallery/1.jpg" class="lightbox-image" title="Image Title Here"><img src="../images/resource/gw-6.jpg" alt=""></a>
                                             </figure>
                                         </div>
                                     </div>
@@ -1052,18 +1052,18 @@ if (isset($_POST) && $mail->validate($_POST)) {
 
     <!--Scroll to top-->
     <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-double-up"></span></div>
-    <script src="js/jquery.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery-ui.js"></script>
-    <script src="js/jquery.fancybox.js"></script>
-    <script src="js/appear.js"></script>
-    <script src="js/owl.js"></script>
-    <script src="js/jquery.countdown.js"></script>
-    <script src="js/wow.js"></script>
-    <script src="js/script.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-ui.js"></script>
+    <script src="../js/jquery.fancybox.js"></script>
+    <script src="../js/appear.js"></script>
+    <script src="../js/owl.js"></script>
+    <script src="../js/jquery.countdown.js"></script>
+    <script src="../js/wow.js"></script>
+    <script src="../js/script.js"></script>
     <!-- Color Setting -->
-    <script src="js/color-settings.js"></script>
+    <script src="../js/color-settings.js"></script>
 </body>
 
 </html>
