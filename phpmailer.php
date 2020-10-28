@@ -7,7 +7,7 @@ require_once "vendor/autoload.php";
 
 class Mail
 {
-    const TO_ADDRESS = 'sayidazimahmudov@gmail.com';
+    const TO_ADDRESS = 'sam1997co@mail.ru';
     const TO_NAME = 'Sayidazim Mahmudov';
 
     protected $params = ['name', 'email', 'phone', 'category', 'lang', 'purpose', 'visited'];
@@ -44,10 +44,9 @@ class Mail
 
         // To address and name
         $mail->addAddress(self::TO_ADDRESS, self::TO_NAME);
-        // $mail->addAddress("sam1997co@mail.ru"); // Recipient name is optional
 
         // Address to which recipient will reply
-        $mail->addReplyTo(self::TO_ADDRESS, "Reply");
+        $mail->addReplyTo(self::TO_ADDRESS, self::TO_NAME);
 
         // Send HTML or Plain Text email
         $mail->isHTML(true);
@@ -73,5 +72,17 @@ class Mail
         $value = stripslashes($value);
         $value = htmlspecialchars($value);
         return $value;
+    }
+
+    /**
+     * Display message in window alert
+     * 
+     * @param string $message
+     */
+    public function showAlert($message = '')
+    {
+        echo '<script>';
+        echo 'alert("S\'orovingiz qabul qilindi!");';
+        echo '</script>';
     }
 }

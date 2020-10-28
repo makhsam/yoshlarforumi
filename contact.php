@@ -5,6 +5,7 @@ $mail = new Mail;
 
 if (isset($_POST) && $mail->validate($_POST)) {
     $mail->send();
+    $mail->showAlert();
 }
 ?>
 <!DOCTYPE html>
