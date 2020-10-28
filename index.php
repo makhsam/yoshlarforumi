@@ -68,7 +68,7 @@
                                 <ul class="navigation clearfix">
                                     <li class="active"><a href="/">Bosh sahifa</a>
                                     </li>
-                                    <li class="dropdown"><a href="about-us.html">Biz haqidimizda</a>
+                                    <li class="dropdown"><a href="about-us.html">Biz haqimizda</a>
                                     </li>
                                     <li class="dropdown"><a href="speaker.html">Ma'ruzachilar</a>
                                     </li>
@@ -78,6 +78,11 @@
                                 </li> -->
                                     <li class="dropdown"><a href="blog-sidebar.html">Yo'nalishlar</a></li>
                                     <!-- <li><a href="contact.php">Bog'lanish</a></li> -->
+                                    <li class="dropdown dropmenu"><a href="index.php"><img src="images/resource/uz_flag.png" alt="" class="m-2 float-right" height="10" width="18"/>Uzbek</a>
+                                    <ul>
+                                        <a class="dropdown-item" href="en/index.php"><span> English </span><img src="images/resource/us_flag.jpg" alt="" class="m-1 float-right" height="8" width="18"/></a>
+                                    </ul>
+                                </li>
                                 </ul>
                             </div>
                         </nav>
@@ -107,7 +112,7 @@
 
                 <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                 <nav class="menu-box">
-                    <div class="nav-logo"><a href="/"><img src="images/logo-2.png" alt="" title=""></a></div>
+                    <!-- <div class="nav-logo"><a href="/"><img src="images/logo-2.png" alt="" title=""></a></div> -->
 
                     <ul class="navigation clearfix">
                         <!--Keep This Empty / Menu will come through Javascript-->
@@ -126,7 +131,7 @@
                     <div class="auto-container">
                         <div class="content-box">
                             <span class="title">Noyabr 16, 2020</span>
-                            <h2>Raqamli transprot va logistika <br> talabalar onlayn forumi</h2>
+                            <h2>Raqamli transport va logistika <br> talabalar onlayn forumi</h2>
                             <ul class="info-list">
                                 <li><span class="icon fa fa-chair"></span> 250 ta qatnashchilar</li>
                                 <li><span class="icon fa fa-user-alt"></span> 12 Ma'ruzachilar</li>
@@ -143,7 +148,7 @@
                     <div class="auto-container">
                         <div class="content-box">
                             <span class="title">Noyabr 16, 2020</span>
-                            <h2>Raqamli transprot va logistika <br>talabalar onlayn forumi</h2>
+                            <h2>Raqamli transport va logistika <br>talabalar onlayn forumi</h2>
                             <ul class="info-list">
                                 <li><span class="icon fa fa-chair"></span> 250 ta qatnashchilar</li>
                                 <li><span class="icon fa fa-user-alt"></span> 12 ta Ma'ruzachilar</li>
