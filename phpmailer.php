@@ -45,8 +45,8 @@ class Mail
         $mail->isSMTP();
         $mail->SMTPDebug = SMTP::DEBUG_SERVER;
         $mail->Host = 'smtp.gmail.com';
-        $mail->Port = 465;
-        $mail->SMTPSecure = 'ssl';
+        $mail->Port = 587;
+        $mail->SMTPSecure = 'tls';
         $mail->SMTPAuth = true;
 
         $mail->Username = self::MAIL_USERNAME;
