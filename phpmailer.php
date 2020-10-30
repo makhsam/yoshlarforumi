@@ -10,8 +10,8 @@ class Mail
 {
     const TO_ADDRESS = 'sam1997co@mail.ru';
     const TO_NAME = 'Sayidazim Mahmudov';
-    const MAIL_USERNAME = ''; // full gmail address
-    const MAIL_PASSWORD = '';
+    const MAIL_USERNAME = 'napaautomative@gmail.com';
+    const MAIL_PASSWORD = 'TDMcXXDlHsJjR0EL';
 
     protected $params = ['name', 'email', 'phone', 'category', 'lang', 'purpose', 'visited'];
     protected $request = []; // POST data
