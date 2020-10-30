@@ -8,7 +8,7 @@ require_once "vendor/autoload.php";
 
 class Mail
 {
-    const TO_ADDRESS = 'sam1997co@mail.ru';
+    const TO_ADDRESS = 'sayidazimahmudov@gmail.com';
     const TO_NAME = 'Sayidazim Mahmudov';
     const MAIL_USERNAME = 'napaautomative@gmail.com';
     const MAIL_PASSWORD = 'TDMcXXDlHsJjR0EL';
@@ -42,31 +42,14 @@ class Mail
         // Create a new PHPMailer instance
         $mail = new PHPMailer(true);
 
-        // Tell PHPMailer to use SMTP
         $mail->isSMTP();
-
-        // Enable SMTP debugging
-        // SMTP::DEBUG_OFF = off (for production use)
-        // SMTP::DEBUG_CLIENT = client messages
-        // SMTP::DEBUG_SERVER = client and server messages
-        $mail->SMTPDebug = SMTP::DEBUG_OFF;
-
-        // Set the hostname of the mail server
+        $mail->SMTPDebug = SMTP::DEBUG_SERVER;
         $mail->Host = 'smtp.gmail.com';
-
-        // Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
-        $mail->Port = 587;
-
-        // Set the encryption mechanism to use - STARTTLS or SMTPS
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-
-        // Whether to use SMTP authentication
+        $mail->Port = 465;
+        $mail->SMTPSecure = 'ssl';
         $mail->SMTPAuth = true;
 
-        // Username to use for SMTP authentication
         $mail->Username = self::MAIL_USERNAME;
-
-        // Password to use for SMTP authentication
         $mail->Password = self::MAIL_PASSWORD;
 
         // Set who the message is to be sent from
